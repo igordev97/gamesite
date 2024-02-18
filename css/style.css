@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+    color: #fff !important;
+    }
+nav{
+    background-color: #33658A;
+}
+nav a{
+    color: #fff !important; 
+}
+nav .dropdown-item{
+    color: #333 !important;
+}
+
+main{
+
+     background-color: #33648a8e;
+    overflow-y: scroll;
+    overflow-y: hidden;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+#card{
+    background-color: #2F4858;
+    padding: 2px;
+    max-width: 200px;
+    border-radius: 10px ;
+    color: #fff;
+}
+#card img{
+    width: 200px;
+    height: 250px;
+}
+#card img:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+
+#game-page h1,h2,h3,h4,h5,h6,p{
+    color: #ffffffbb  !important;
+}
+.page-img{
+    width: 300px;
+    height: 450px;
+}
+
+ #description{
+    font-size: 16px;
+    color: #acacac;
+}
